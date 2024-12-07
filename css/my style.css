@@ -1,0 +1,175 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+body {
+    background: #1E202B;
+    color: #fff;
+}
+form input{
+    background-color: #1E202B;
+}
+.logo span{
+    font-size: 10px;
+}
+.navbar {
+  padding: 40px;
+  background-color: #1E202B;
+}
+
+.navbar .logo a {
+    font-size: 13px;
+    margin-left: 13px;
+}
+
+.nav-item a {
+    color: white;
+    margin-left: 25px;
+    padding: 0px 7px;
+    border-radius: 12px;
+    transition: all 0.2s ease-in;
+}
+
+.nav-item a:hover {
+    border: #009AD8 solid 2px;
+    color: #009AD8;
+}
+.nav-item .active {
+    border: #009AD8 solid 2px;
+    color: #009AD8 !important; 
+    margin-left: 25px;
+    padding: 0px 7px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+#city-input{
+    background-color: #1E202B;
+    color: white;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#city-input::placeholder {
+    color: rgb(207, 194, 194);  
+}
+.find-grade{
+   background-image: url(../imges/banner.png);
+   background-repeat: no-repeat;
+}
+header h1 {
+    font-size: 2.5rem;
+    color: #00bcd4;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #cccccc;
+}
+
+.search-bar {
+    position: relative; 
+    width: 100%;
+}
+
+.search-bar input {
+    width: 100%;  
+    padding: 10px;
+    padding-right: 50px; 
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-bar .search-btn {
+    position: absolute; 
+    right: 10px; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 50%; 
+    cursor: pointer;
+}
+
+.search-bar .search-btn:hover {
+    background-color: #0056b3; 
+}
+
+
+.weather-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.card {
+    background: #29293d;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* name of city */
+.card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #00bcd4; 
+}
+
+/* date */
+.card .date {
+    font-size: 1rem;
+    color: #cccccc; 
+}
+/* temperature */
+.card .temp {
+    font-size: 1.8rem;
+    margin: 10px 0;
+    color: #00bcd4;
+}
+
+.card .condition {
+    font-size: 1.2rem;
+    color: #cccccc;
+}
+
+.card .day-night {
+    font-size: 1.5rem;
+    color: #ffd700;
+}
+
+
+
+footer{
+    background-color: #262936;
+   padding: 45px;
+}
+ .icon-contact{
+    color: #009AD8;
+    background-color: #1E202B;
+    border-radius:50% ;
+    -webkit-border-radius:50% ;
+    -moz-border-radius:50% ;
+    -ms-border-radius:50% ;
+    -o-border-radius:50% ;
+    transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+}
+  .icon-contact:hover{
+    color: #fff;
+    background-color: #009AD8;
+  }
